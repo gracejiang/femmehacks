@@ -2,3 +2,18 @@
   font-family: "Alata";
   src: url("Alata-Regular.ttf");
 }
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("OpenSans-Bold.ttf");
+}
