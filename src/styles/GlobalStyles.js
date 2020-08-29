@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle`
   ${normalize};
 
   body {
-    font-family: 'OpenSans';
+    font-family: ${props => props.theme.font.secondary};
   }
 
   h1, h2, h3, p {
@@ -17,7 +17,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   h1, h2 {
-    font-family: 'Alata';
+    font-family: ${props => props.theme.font.primary};
   }
 
   h1 {
