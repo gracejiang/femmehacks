@@ -30,15 +30,15 @@ const Header = () => (
               <Img fluid={data.art_build.childImageSharp.fluid}/>
             </Art>
             <Text>
-              <h1>
+              <h1 style={{fontSize: "40px"}}>
                 Philadelphia's first
                 <br />
-                women's &amp; nonbinary
+                all women &amp; nonbinary
                 <br />
                 Hackathon.
               </h1>
               <br/>
-              <h3>02.XX.2021 - 02.XX.2021</h3>
+              <h3>Feburary 5-6, 2021</h3>
               <br/>
               <p>
                 <StyledExternalLink href="">
