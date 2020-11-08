@@ -1,4 +1,14 @@
 @font-face {
+  font-family: "Comfortaa-Bold";
+  src: url("Comfortaa-Bold.ttf");
+}
+
+@font-face {
+  font-family: "HKGrotesk";
+  src: url("HKGrotesk-Regular.otf");
+}
+
+@font-face {
   font-family: "Alata";
   src: url("Alata-Regular.ttf");
 }

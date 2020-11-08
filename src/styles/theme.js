@@ -1,7 +1,7 @@
 const theme = {
   font: {
-    primary: `'Alata', sans-serif`,
-    secondary: `'OpenSans-Regular', 'Alata', sans-serif`,
+    primary: `'Comfortaa-Bold', Comfortaa, 'Alata', sans-serif`,
+    secondary: `'HKGrotesk', Roboto, 'OpenSans-Regular', sans-serif`,
   },
   font_size: {
     small: 'font-size: 20px; line-height: 30px',
