@@ -12,7 +12,7 @@ const Header = () => (
       query {
         art_build: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "build" }
+          name: { eq: "header-graphic" }
         ) {
           childImageSharp {
             fluid(maxWidth: 1400) {
@@ -27,7 +27,7 @@ const Header = () => (
         <Container>
           <Grid>
             <Art>
-              <Img fluid={data.art_build.childImageSharp.fluid} />
+              <Img fluid={data.art_build.childImageSharp.fluid}/>
             </Art>
             <Text>
               <h1>
