@@ -23,21 +23,17 @@ const Header = () => (
       }
     `}
     render={data => (
-      <HeaderWrapper>
+      <HeaderWrapper style={{paddingLeft: "10%", paddingRight:"10%", paddingBottom:"100px"}}>
         <Container>
           <Grid>
             <Art>
               <Img fluid={data.art_build.childImageSharp.fluid} 
-              // style={{width: "80%", marginLeft: "160px"}}
+              style={{width: "90%", marginLeft: "15%"}}
               />
             </Art>
             <Text>
               <h1 style={{fontSize: "40px"}}>
-                Philadelphia's first
-                <br />
-                all women &amp; nonbinary
-                <br />
-                Hackathon.
+                Philadelphia's first all women &amp; nonbinary hackathon.
               </h1>
               <br/>
               <h3>Feburary 5-6, 2021</h3>

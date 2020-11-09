@@ -15,6 +15,7 @@ const Layout = ({ children }) => (
       {children}
     </>
   </ThemeProvider>
+  
 );
 
 Layout.propTypes = {
