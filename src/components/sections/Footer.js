@@ -8,20 +8,15 @@ import ExternalLink from '@common/ExternalLink';
 
 import GithubIcon from '@static/icons/github.svg';
 import InstagramIcon from '@static/icons/instagram.svg';
-import TwitterIcon from '@static/icons/twitter.svg';
 
 const SOCIAL = [
   {
     icon: GithubIcon,
-    link: 'https://github.com/',
+    link: 'http://github.com/femmehacks/',
   },
   {
     icon: InstagramIcon,
-    link: 'https://instagram.com/',
-  },
-  {
-    icon: TwitterIcon,
-    link: 'https://twitter.com/',
+    link: 'https://www.instagram.com/femmehacks/',
   },
 ];
 
