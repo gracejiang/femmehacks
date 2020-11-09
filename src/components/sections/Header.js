@@ -36,7 +36,7 @@ const Header = () => (
                 Philadelphia's first all women &amp; nonbinary hackathon.
               </h1>
               <br/>
-              <h3>Feburary 5-6, 2021</h3>
+              <h3>Februrary 5-6, 2021</h3>
               <br/>
               <p>
                 <div style={{height: "24px"}}></div>
