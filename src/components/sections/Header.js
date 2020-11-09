@@ -23,12 +23,12 @@ const Header = () => (
       }
     `}
     render={data => (
-      <HeaderWrapper style={{paddingLeft: "10%", paddingRight:"10%", paddingBottom:"100px"}}>
+      <HeaderWrapper style={{paddingLeft: "10%", paddingRight:"10%", paddingBottom:"80px"}}>
         <Container>
           <Grid>
             <Art>
               <Img fluid={data.art_build.childImageSharp.fluid} 
-              style={{width: "90%", marginLeft: "15%"}}
+              style={{width: "95%", marginLeft: "12%"}}
               />
             </Art>
             <Text>
@@ -39,6 +39,7 @@ const Header = () => (
               <h3>Feburary 5-6, 2021</h3>
               <br/>
               <p>
+                <div style={{height: "24px"}}></div>
                 <StyledExternalLink href="">
                   Register Here &nbsp;&#x2794;
                 </StyledExternalLink>
@@ -99,11 +100,17 @@ const Text = styled.div`
 `;
 
 const StyledExternalLink = styled(ExternalLink)`
-  color: inherit;
+  font-family: Comfortaa;
+  color: white;
   text-decoration: none;
+  background-color: #7986CB;
+  padding: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
 
   &:hover {
-    color: ${props => props.theme.color.black.regular};
+    background-color: #6470b3;
   }
 `;
 
