@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Scrollspy from 'react-scrollspy';
 
-import Logo from '../../../images/art/icon-horizontal-dark.png'
+import DarkLogo from '../../../images/art/icon-horizontal-dark.png'
+import Logo from '../../../images/art/icon-horizontal.png'
+
 
 import { Container } from '@components/global';
 import {
