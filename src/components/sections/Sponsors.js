@@ -40,7 +40,7 @@ const LOGOS = [
   },
 ];
 
-const UsedBy = () => (
+const Sponsors = () => (
   <StaticQuery
     query={graphql`
       query {
@@ -123,4 +123,4 @@ const Art = styled.figure`
   }
 `;
 
-export default UsedBy;
+export default Sponsors;

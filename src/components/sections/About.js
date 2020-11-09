@@ -46,7 +46,13 @@ const About = () => (
     render={data => (
       <Section id="about">
         <Container>
-          <Grid>
+
+          {/* todo: grid view with 2 columns, make mobile responsive..! */}
+
+          <h1>About FemmeHacks</h1>
+          <p>Lorem ipsum.</p>
+          
+          {/* <Grid>
             <div>
               <h2>First Title</h2>
               <p>
@@ -87,7 +93,7 @@ const About = () => (
             <Art>
               <Img fluid={data.art_ideas.childImageSharp.fluid} />
             </Art>
-          </Grid>
+          </Grid> */}
         </Container>
       </Section>
     )}
