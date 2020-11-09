@@ -27,7 +27,9 @@ const Header = () => (
         <Container>
           <Grid>
             <Art>
-              <Img fluid={data.art_build.childImageSharp.fluid}/>
+              <Img fluid={data.art_build.childImageSharp.fluid} 
+              // style={{width: "80%", marginLeft: "160px"}}
+              />
             </Art>
             <Text>
               <h1 style={{fontSize: "40px"}}>

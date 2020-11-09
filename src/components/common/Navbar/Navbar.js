@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Scrollspy from 'react-scrollspy';
 
+import Logo from '../../../images/art/icon-horizontal-dark.png'
+
 import { Container } from '@components/global';
 import {
   Nav,
@@ -59,7 +61,7 @@ class Navbar extends Component {
     return (
       <Nav {...this.props}>
         <StyledContainer>
-          <Brand>FemmeHacks</Brand>
+          <Brand><img src={Logo} style={{width:"220px"}} alt="Logo" /></Brand>
           <Mobile>
             <button onClick={this.toggleMobileMenu} style={{ color: 'black' }}>
               <MenuIcon />
