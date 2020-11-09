@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Scrollspy from 'react-scrollspy';
 
+// scrollspy documentation: https://www.npmjs.com/package/react-scrollspy
+
 import DarkLogo from '../../../images/art/icon-horizontal-dark.png'
 import Logo from '../../../images/art/icon-horizontal.png'
 
@@ -63,7 +65,15 @@ class Navbar extends Component {
     return (
       <Nav {...this.props}>
         <StyledContainer>
-          <Brand><img src={Logo} style={{width:"220px"}} alt="Logo" /></Brand>
+          <Brand>
+          <Scrollspy 
+            items={ ['home'] }
+            style={{ margin: "0px", padding: "0px"}} >
+            <AnchorLink href={`#${"home"}`} onClick={this.closeMobileMenu}>
+              <img src={Logo} style={{ width:"220px" }} alt="Logo" />
+            </AnchorLink>
+          </Scrollspy>
+          </Brand>
           <Mobile>
             <button onClick={this.toggleMobileMenu} style={{ color: 'black' }}>
               <MenuIcon />

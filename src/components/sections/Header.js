@@ -23,7 +23,7 @@ const Header = () => (
       }
     `}
     render={data => (
-      <HeaderWrapper style={{paddingLeft: "10%", paddingRight:"10%", paddingBottom:"80px"}}>
+      <HeaderWrapper id="home" style={{paddingLeft: "10%", paddingRight:"10%", paddingBottom:"80px"}}>
         <Container>
           <Grid>
             <Art>
