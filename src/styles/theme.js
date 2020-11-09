@@ -1,7 +1,9 @@
+import "typeface-chivo"
+
 const theme = {
   font: {
-    primary: `'Comfortaa-Bold', Comfortaa, 'Alata', sans-serif`,
-    secondary: `'HKGrotesk', Roboto, 'OpenSans-Regular', sans-serif`,
+    primary: `Comfortaa, 'Alata', sans-serif`,
+    secondary: `'Chivo-Light', Chivo-Light, Chivo, 'Chivo', sans-serif`,
   },
   font_size: {
     small: 'font-size: 18px; line-height: 30px',

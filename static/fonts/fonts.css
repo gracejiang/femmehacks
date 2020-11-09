@@ -1,29 +1,5 @@
-@font-face {
-  font-family: "Comfortaa-Bold";
-  src: url("Comfortaa-Bold.ttf");
-}
-
-@font-face {
-  font-family: "HKGrotesk";
-  src: url("HKGrotesk-Regular.otf");
-}
 
 @font-face {
   font-family: "Alata";
   src: url("Alata-Regular.ttf");
-}
-
-@font-face {
-  font-family: "OpenSans-Regular";
-  src: url("OpenSans-Regular.ttf");
-}
-
-@font-face {
-  font-family: "OpenSans-Light";
-  src: url("OpenSans-Light.ttf");
-}
-
-@font-face {
-  font-family: "OpenSans-Bold";
-  src: url("OpenSans-Bold.ttf");
 }
