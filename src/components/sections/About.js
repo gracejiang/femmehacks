@@ -47,11 +47,11 @@ const About = () => (
       <Section id="about">
         <Container>
 
-          {/* todo: grid view with 2 columns, make mobile responsive..! */}
+          {/* TODO: grid view with 2 columns, make mobile responsive..! */}
 
           <h1>About FemmeHacks</h1>
           <p>Lorem ipsum.</p>
-          
+
           {/* <Grid>
             <div>
               <h2>First Title</h2>

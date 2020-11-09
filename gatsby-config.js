@@ -33,7 +33,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Absurd`,
+        name: `FemmeHacks`,
         short_name: `absurd`,
         start_url: `/`,
         background_color: `#8bd8ed`,
