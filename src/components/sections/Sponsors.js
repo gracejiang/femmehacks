@@ -69,9 +69,9 @@ const UsedBy = () => (
               ))}
             </LogoGrid>
           </div>
-          <Art>
+          {/* <Art>
             <Img fluid={data.art_story.childImageSharp.fluid} />
-          </Art>
+          </Art> */}
         </StyledContainer>
       </Section>
     )}
@@ -80,7 +80,7 @@ const UsedBy = () => (
 
 const LogoGrid = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 64px;
   justify-items: center;
   margin-top: 96px;
@@ -98,7 +98,7 @@ const LogoGrid = styled.div`
 
 const StyledContainer = styled(Container)`
   display: flex;
-  justify-content: flex-end;
+  // justify-content: flex-end;
   position: relative;
 
   @media (max-width: ${props => props.theme.screen.md}) {
