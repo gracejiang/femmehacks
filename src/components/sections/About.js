@@ -50,7 +50,7 @@ const About = () => (
           {/* TODO: grid view with 2 columns, make mobile responsive..! */}
 
           <h1>About FemmeHacks</h1>
-          <p>Lorem ipsum.</p>
+          <p>This is the official website of FemmeHacks.</p>
 
           {/* <Grid>
             <div>
