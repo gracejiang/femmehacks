@@ -60,7 +60,7 @@ const Sponsors = () => (
       <Section id="sponsors" accent>
         <StyledContainer>
           <div>
-            <h1>2021 Sponsors</h1>
+            <h1>Our 2021 Sponsors</h1>
             <LogoGrid>
               {LOGOS.map(({ logo, link }) => (
                 <ExternalLink key={link} href={link}>
