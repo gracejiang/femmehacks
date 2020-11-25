@@ -6,6 +6,7 @@ import FaqItem from '@common/FaqItem';
 import ExternalLink from '@common/ExternalLink';
 
 const FAQS = [
+  // GENERAL
   {
     title: 'Where will the hackathon be and when?',
     content: () => (
@@ -21,34 +22,97 @@ const FAQS = [
     ),
   },
   {
-    title: 'Question?',
+    title: 'Where can I find the schedule?',
     content: () => (
       <>
-        Answer.
+        We’re still finalizing the details. A schedule will be available on this site in INSERT TIME HERE!
+      </>
+      // Include link that jumps to schedule once released
+    ),
+  },
+  {
+    title: 'How much would I need to pay?',
+    content: () => (
+      <>
+        Nothing — attending FemmeHacks is completely free.
       </>
     ),
   },
   {
-    title: 'Question?',
+    title: 'Who should I contact if I have more questions?',
     content: () => (
       <>
-        Answer.
+        Please write to us at XX@XX.com. We’re happy to help.
+      </>
+    ),
+  },
+  //THE HACKATHON
+  {
+    title: 'How will FemmeHacks work virtually?',
+    content: () => (
+      <>
+        INSERT DETAILS HERE.
       </>
     ),
   },
   {
-    title: 'Question?',
+    title: 'What kinds of projects have past attendees made?',
     content: () => (
       <>
-        Answer.
+        Past attendees have made all sorts of web, mobile, and hardware applications. 
+        Click here to see some examples! [INSERT LINK]
       </>
     ),
   },
   {
-    title: 'Question?',
+    title: 'Should I prepare anything before the hackathon?',
     content: () => (
       <>
-        Answer.
+        INSERT DETAILS HERE. 
+      </>
+    ),
+  },
+  {
+    title: 'Will there be swag or prizes?',
+    content: () => (
+      <>
+        Yes!
+      </>
+      //Add more details about shipping, etc.
+    ),
+  },
+  //REGISTRATION
+  {
+    title: 'How can I register?',
+    content: () => (
+      <>
+        Click here! [INSERT LINK] 
+      </>
+    ),
+  },
+  {
+    title: 'When do I need to register by?',
+    content: () => (
+      <>
+        Registration will be open until INSERT DATE HERE. 
+      </>
+    ),
+  },
+  {
+    title: 'I’ve never been to a hackathon before. Should I still register?',
+    content: () => (
+      <>
+        Absolutely. We will have plenty of beginner-friendly workshops, like INSERT WORKSHOPS HERE. 
+        Mentors will also be there to help you! 
+      </>
+    ),
+  },
+  {
+    title: 'I don’t have a team. Should I still register?',
+    content: () => (
+      <>
+        Of course. No need to worry, we’ll have team formation events to help you find great 
+        people to work with! 
       </>
     ),
   },
