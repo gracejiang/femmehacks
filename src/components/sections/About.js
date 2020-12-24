@@ -12,7 +12,7 @@ const About = () => (
       <h1>About FemmeHacks</h1>
       <br/><br/>
       <Row>
-        <Col xs={12} md={4}>
+        <Col xs={12} md={6} lg={4}>
           <h3>What is FemmeHacks?</h3>
           <p>Now running on our 7th year, FemmeHacks is a two-day collegiate hackathon 
           hosted at the University of Pennsylvania by the university’s Women in Computer 
@@ -23,7 +23,7 @@ const About = () => (
           virtually. </p>
         </Col>
 
-        <Col xs={12} md={4}>
+        <Col xs={12} md={6} lg={4}>
           <h3>Who can attend?</h3>
           <p>FemmeHacks welcomes trans and cis women, non-binary, and gender non-conforming 
           people of all levels of experience – equality for all! Participants range from students 
@@ -33,7 +33,7 @@ const About = () => (
           150 attendees</b>!</p>
         </Col>
 
-        <Col xs={12} md={4}>
+        <Col xs={12} md={6} lg={4}>
         <h3>Why attend FemmeHacks?</h3>
           {/* Can change workshop topics to this year's once we know them */}
           <p>FemmeHacks is committed to education — we’ve hosted workshops on all sorts of topics, 

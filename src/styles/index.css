@@ -1,5 +1,9 @@
-h1, h2, h3 {
+h1, h2 {
   font-family: Comfortaa, 'Alata', sans-serif;
+}
+
+h3 {
+  font-family: Chivo, 'Chivo', sans-serif;
 }
 
 p {
