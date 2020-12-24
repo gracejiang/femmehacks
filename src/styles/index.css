@@ -29,3 +29,7 @@ a:hover {
   text-decoration: none;
   color: black;
 }
+
+.sponsor-logo-class {
+  width: 200px;
+}
