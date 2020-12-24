@@ -10,6 +10,10 @@ import Faq from '@sections/Faq';
 import Sponsors from '@sections/Sponsors';
 import Footer from '@sections/Footer';
 
+import "../styles/bootstrap.css" // from react-bootstrap
+import "../styles/index.css" // page theme
+
+
 const IndexPage = () => (
   <Layout>
     <Navbar />

@@ -40,7 +40,7 @@ const Header = () => (
               <br/>
               <p>
                 <div style={{height: "24px"}}></div>
-                <StyledExternalLink href="">
+                <StyledExternalLink className="header-register-btn" href="">
                   Register Here &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>

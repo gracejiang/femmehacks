@@ -3,137 +3,49 @@ import styled from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
-import "../../styles/bootstrap.css" // from react-bootstrap
-
 import { Section, Container } from '@components/global';
 import { Row, Col } from 'react-bootstrap';
 
 const About = () => (
-  <StaticQuery
-    query={graphql`
-      query {
-        art_fast: file(
-          sourceInstanceName: { eq: "art" }
-          name: { eq: "fast" }
-        ) {
-          childImageSharp {
-            fluid(maxWidth: 760) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
-          }
-        }
+  <Section id="about">
+    <Container>
+      <h1>About FemmeHacks</h1>
+      <br/><br/>
+      <Row>
+        <Col xs={12} md={4}>
+          <h3>What is FemmeHacks?</h3>
+          <p>Now running on our 7th year, FemmeHacks is a two-day collegiate hackathon 
+          hosted at the University of Pennsylvania by the university’s Women in Computer 
+          Science chapter. FemmeHacks aims to <b>empower</b>, <b>educate</b>, and <b>inspire </b> 
+          women and non-binary folks in the Philadelphia tech community. After forming teams, 
+          attendees build a variety of web, mobile, and hardware applications, learn from 
+          workshops, and attend various speaker events. This year, FemmeHacks will be held 
+          virtually. </p>
+        </Col>
 
-        art_learn: file(
-          sourceInstanceName: { eq: "art" }
-          name: { eq: "learn_yourself" }
-        ) {
-          childImageSharp {
-            fluid(maxWidth: 760) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
-          }
-        }
+        <Col xs={12} md={4}>
+          <h3>Who can attend?</h3>
+          <p>FemmeHacks welcomes trans and cis women, non-binary, and gender non-conforming 
+          people of all levels of experience – equality for all! Participants range from students 
+          from a variety of schools such as University of Pennsylvania, Princeton, Drexel, 
+          Rutgers, Bryn Mawr, Villanova, Temple, Haverford, as well as young talents from 
+          Philadelphia high schools looking to break into the tech field. Last year, we had <b>over 
+          150 attendees</b>!</p>
+        </Col>
 
-        art_ideas: file(
-          sourceInstanceName: { eq: "art" }
-          name: { eq: "ideas" }
-        ) {
-          childImageSharp {
-            fluid(maxWidth: 760) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
-          }
-        }
-      }
-    `}
-    render={data => (
-      <Section id="about">
-        <Container>
-          <h1>About FemmeHacks</h1>
+        <Col xs={12} md={4}>
+        <h3>Why attend FemmeHacks?</h3>
+          {/* Can change workshop topics to this year's once we know them */}
+          <p>FemmeHacks is committed to education — we’ve hosted workshops on all sorts of topics, 
+          including GitHub, web development, iOS development and computer graphics. FemmeHacks also 
+          gives attendees the opportunity to connect with other women and non-binary people in the 
+          Philly tech community. Last year, <b>87% of our attendees</b> said they made at least one valuable 
+          connection with a fellow student or mentor! Of course, there will be great prizes too. </p>
+        </Col>
 
-          <Row>
-            <Col xs={12} md={6}>
-              <h3>What is FemmeHacks?</h3>
-              <p>Now running on our 7th year, FemmeHacks is a two-day collegiate hackathon 
-              hosted at the University of Pennsylvania by the university’s Women in Computer 
-              Science chapter. FemmeHacks aims to <b>empower</b>, <b>educate</b>, and <b>inspire </b> 
-              women and non-binary folks in the Philadelphia tech community. After forming teams, 
-              attendees build a variety of web, mobile, and hardware applications, learn from 
-              workshops, and attend various speaker events. This year, FemmeHacks will be held 
-              virtually. </p>
-              <br></br>
-              <h3>Who can attend?</h3>
-              <p>FemmeHacks welcomes trans and cis women, non-binary, and gender non-conforming 
-              people of all levels of experience – equality for all! Participants range from students 
-              from a variety of schools such as University of Pennsylvania, Princeton, Drexel, 
-              Rutgers, Bryn Mawr, Villanova, Temple, Haverford, as well as young talents from 
-              Philadelphia high schools looking to break into the tech field. Last year, we had <b>over 
-              150 attendees</b>!</p>
-              <br></br>
-              <h3>Why attend FemmeHacks?</h3>
-              {/* Can change workshop topics to this year's once we know them */}
-              <p>FemmeHacks is committed to education — we’ve hosted workshops on all sorts of topics, 
-              including GitHub, web development, iOS development and computer graphics. FemmeHacks also 
-              gives attendees the opportunity to connect with other women and non-binary people in the 
-              Philly tech community. Last year, <b>87% of our attendees</b> said they made at least one valuable 
-              connection with a fellow student or mentor! Of course, there will be great prizes too. </p>
-            </Col>
-
-            <Col xs={12} md={6}>
-
-              hi
-            </Col>
-
-          </Row>
-
-
-
-          {/* <Grid>
-            <div>
-              <h2>First Title</h2>
-              <p>
-                Gatsby.js builds the fastest possible website. Instead of
-                waiting to generate pages when requested, pre-build pages and
-                lift them into a global cloud of servers — ready to be delivered
-                instantly to your users wherever they are.
-              </p>
-            </div>
-            <Art>
-              <Img fluid={data.art_fast.childImageSharp.fluid} />
-            </Art>
-          </Grid>
-          <Grid inverse>
-            <Art>
-              <Img fluid={data.art_learn.childImageSharp.fluid} />
-            </Art>
-            <div>
-              <h2>Learn New Skills</h2>
-              <p>
-                Enjoy the power of the latest web technologies – React.js ,
-                Webpack , modern JavaScript and CSS and more — all set up and
-                waiting for you to start building.
-              </p>
-            </div>
-          </Grid>
-          <Grid>
-            <div>
-              <h2>Build Your Ideas</h2>
-              <p>
-                Waste no more time on tooling and performance. Focus on the the
-                site you want to build and nothing more.
-                <br />
-                <br />
-                Gatsby is fast in every way that matters.
-              </p>
-            </div>
-            <Art>
-              <Img fluid={data.art_ideas.childImageSharp.fluid} />
-            </Art>
-          </Grid> */}
-        </Container>
-      </Section>
-    )}
-  />
+      </Row>
+    </Container>
+  </Section>
 );
 
 const Grid = styled.div`
