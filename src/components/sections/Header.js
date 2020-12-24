@@ -30,7 +30,7 @@ const Header = () => (
       <HeaderWrapper id="home" style={{
         paddingLeft: "10%", 
         paddingRight:"10%", 
-        paddingTop:"15%", 
+        paddingTop:"16%", 
         paddingBottom:"12%", 
         backgroundImage: `url(${BackgroundImage})`, 
         backgroundSize: 'cover'
@@ -47,7 +47,7 @@ const Header = () => (
                 An inclusive all women &amp; nonbinary hackathon. <Emoji symbol="👩‍💻"/>
               </h1>
               <br/>
-              <h3>Februrary 5-6, 2021</h3>
+              <h3>February 5-6, 2021</h3>
               <br/>
               <p>
                 <div style={{height: "24px"}}></div>

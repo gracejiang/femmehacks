@@ -5,6 +5,7 @@ import Img from 'gatsby-image';
 
 import { Section, Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
+import Emoji from "../common/emoji"
 
 import { ReactComponent as AirbnbLogo } from '@images/logos/airbnb.svg';
 import { ReactComponent as AppleMusicLogo } from '@images/logos/apple-music.svg';
@@ -60,7 +61,7 @@ const Sponsors = () => (
       <Section id="sponsors" accent>
         <StyledContainer>
           <div>
-            <h1>Our 2021 Sponsors</h1>
+            <h1>Our 2021 Sponsors <Emoji symbol="💕"/></h1>
             <LogoGrid>
               {LOGOS.map(({ logo, link }) => (
                 <ExternalLink key={link} href={link}>

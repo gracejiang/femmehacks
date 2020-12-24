@@ -3,11 +3,12 @@ import styled from 'styled-components';
 
 import { Section, Container } from '@components/global';
 import { Row, Col } from 'react-bootstrap';
+import Emoji from "../common/emoji"
 
 const Schedule = () => (
   <Section id="schedule" accent>
     <Container>
-      <h1>2021 Schedule</h1>
+      <h1>2021 Schedule <Emoji symbol="📅"/></h1>
       <br/>
       <Row>
         <Col xs={12} md={6}>

@@ -5,6 +5,7 @@ import { Row, Col } from 'react-bootstrap';
 
 import FaqItem from '@common/FaqItem';
 import ExternalLink from '@common/ExternalLink';
+import Emoji from "../common/emoji"
 
 const GeneralFAQS = [
   // GENERAL
@@ -135,7 +136,7 @@ const RegistrationFAQS = [
 const Faq = () => (
   <Section id="faq">
     <Container>
-      <h1 style={{ marginBottom: 40 }}>Frequently Asked Questions</h1>
+      <h1 style={{ marginBottom: '40px' }}>Frequently Asked Questions <Emoji symbol="📚"/></h1>
       <Row>
         <Col xs={12} lg={6}>
           <h3>General</h3>

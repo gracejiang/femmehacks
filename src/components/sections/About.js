@@ -3,13 +3,14 @@ import styled from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
+import Emoji from "../common/emoji"
 import { Section, Container } from '@components/global';
 import { Row, Col } from 'react-bootstrap';
 
 const About = () => (
   <Section id="about">
     <Container>
-      <h1>About FemmeHacks</h1>
+      <h1>About FemmeHacks <Emoji symbol="🎉"/></h1>
       <br/><br/>
       <Row>
         <Col xs={12} md={6} lg={4}>
