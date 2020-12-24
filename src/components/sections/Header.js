@@ -121,7 +121,7 @@ const StyledExternalLink = styled(ExternalLink)`
   border-radius: 10px;
 
   &:hover {
-    background-color: #6470b3;
+    background-color: #6982fa;
   }
 `;
 
