@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  max-width: 1200px;
+  max-width: 920px;
   width: 100%;
   margin: 0 auto;
   padding: 0 16px;
@@ -25,7 +25,7 @@ export const Container = styled.div`
   ${props =>
     props.fluid &&
     `
-    max-width: 1200px !important;
+    max-width: 920px !important;
   `};
 `;
 

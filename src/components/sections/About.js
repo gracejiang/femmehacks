@@ -17,7 +17,7 @@ const About = () => (
           <p>Now running on our 7th year, FemmeHacks is a two-day collegiate hackathon 
           hosted at the University of Pennsylvania by the university’s Women in Computer 
           Science chapter. FemmeHacks aims to <b>empower</b>, <b>educate</b>, and <b>inspire </b> 
-          women and non-binary folks in the Philadelphia tech community. After forming teams, 
+          women and non-binary folks across the nation. After forming teams, 
           attendees build a variety of web, mobile, and hardware applications, learn from 
           workshops, and attend various speaker events. This year, FemmeHacks will be held 
           virtually. </p>
@@ -30,7 +30,7 @@ const About = () => (
           from a variety of schools such as University of Pennsylvania, Princeton, Drexel, 
           Rutgers, Bryn Mawr, Villanova, Temple, Haverford, as well as young talents from 
           Philadelphia high schools looking to break into the tech field. Last year, we had <b>over 
-          150 attendees</b>!</p>
+          200 attendees</b>!</p>
         </Col>
 
         <Col xs={12} md={6} lg={4}>
@@ -39,8 +39,9 @@ const About = () => (
           <p>FemmeHacks is committed to education — we’ve hosted workshops on all sorts of topics, 
           including GitHub, web development, iOS development and computer graphics. FemmeHacks also 
           gives attendees the opportunity to connect with other women and non-binary people in the 
-          Philly tech community. Last year, <b>87% of our attendees</b> said they made at least one valuable 
-          connection with a fellow student or mentor! Of course, there will be great prizes too. </p>
+          general tech community. Last year, over <b>87% of our attendees</b> said they made at least one valuable 
+          connection with a fellow student or mentor! We also have free swag for all attendees and
+          company-sponsored prizes for hackathon winners. </p>
         </Col>
 
       </Row>

@@ -6,6 +6,8 @@ import Img from 'gatsby-image';
 import { Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
+import Emoji from "../common/emoji"
+
 const Header = () => (
   <StaticQuery
     query={graphql`
@@ -33,14 +35,14 @@ const Header = () => (
             </Art>
             <Text>
               <h1 style={{fontSize: "40px"}}>
-                Philadelphia's first all women &amp; nonbinary hackathon.
+                An inclusive all women &amp; nonbinary hackathon. <Emoji symbol="👩‍💻"/>
               </h1>
               <br/>
               <h3>Februrary 5-6, 2021</h3>
               <br/>
               <p>
                 <div style={{height: "24px"}}></div>
-                <StyledExternalLink className="header-register-btn" href="">
+                <StyledExternalLink className="header-register-btn" href="https://forms.gle/bfuQYtBepZurW7Pj9">
                   Register Here &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>

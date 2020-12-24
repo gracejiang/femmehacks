@@ -49,7 +49,7 @@ const Footer = () => (
             <Copyright>
               <h2>FemmeHacks</h2>
               <span>
-                Made with &#9829; by FemmeHacks Marketing
+                Made with &#9829; by FemmeHacks
                 {` `}
                 {/* <ExternalLink href="">
                   @linkName
