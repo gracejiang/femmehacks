@@ -8,13 +8,15 @@ import ExternalLink from '@common/ExternalLink';
 
 import Emoji from "../common/emoji"
 
+import BackgroundImage from "../../images/art/header-bg.png"
+
 const Header = () => (
   <StaticQuery
     query={graphql`
       query {
         art_build: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "header-graphic" }
+          name: { eq: "header-pic" }
         ) {
           childImageSharp {
             fluid(maxWidth: 1400) {
@@ -25,12 +27,19 @@ const Header = () => (
       }
     `}
     render={data => (
-      <HeaderWrapper id="home" style={{paddingLeft: "10%", paddingRight:"10%", paddingBottom:"80px"}}>
+      <HeaderWrapper id="home" style={{
+        paddingLeft: "10%", 
+        paddingRight:"10%", 
+        paddingTop:"15%", 
+        paddingBottom:"12%", 
+        backgroundImage: `url(${BackgroundImage})`, 
+        backgroundSize: 'cover'
+    }}>
         <Container>
           <Grid>
             <Art>
               <Img fluid={data.art_build.childImageSharp.fluid} 
-              style={{width: "95%", marginLeft: "12%"}}
+              style={{width: "95%"}}
               />
             </Art>
             <Text>
@@ -105,7 +114,7 @@ const StyledExternalLink = styled(ExternalLink)`
   font-family: Comfortaa;
   color: white;
   text-decoration: none;
-  background-color: #7986CB;
+  background-color: #526EF4;
   padding: 16px;
   padding-left: 30px;
   padding-right: 30px;

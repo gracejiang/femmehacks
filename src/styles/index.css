@@ -12,11 +12,12 @@ p {
 }
 
 a {
-  color: #7986CB;
+  color: #526EF4;
+  font-weight: 400;
 }
 
 a:hover {
-  color: #7986CB;
+  color: #526EF4;
 }
 
 .header-register-btn:hover {
