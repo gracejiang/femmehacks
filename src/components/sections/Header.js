@@ -28,17 +28,17 @@ const Header = () => (
     `}
     render={data => (
       <HeaderWrapper id="home" style={{
-        paddingLeft: "10%", 
-        paddingRight:"10%", 
-        paddingTop:"16%", 
-        paddingBottom:"12%", 
-        backgroundImage: `url(${BackgroundImage})`, 
+        paddingLeft: "10%",
+        paddingRight:"10%",
+        paddingTop:"16%",
+        paddingBottom:"12%",
+        backgroundImage: `url(${BackgroundImage})`,
         backgroundSize: 'cover'
     }}>
         <Container>
           <Grid>
             <Art>
-              <Img fluid={data.art_build.childImageSharp.fluid} 
+              <Img fluid={data.art_build.childImageSharp.fluid}
               style={{width: "95%"}}
               />
             </Art>
@@ -55,6 +55,7 @@ const Header = () => (
                   Register Here &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>
+              <p> Application deadline: January 29, 2021 </p>
             </Text>
           </Grid>
         </Container>
@@ -111,7 +112,7 @@ const Text = styled.div`
 `;
 
 const StyledExternalLink = styled(ExternalLink)`
-  font-family: Comfortaa;
+  font-family: Comfortaa, 'Alata', sans-serif;
   color: white;
   text-decoration: none;
   background-color: #526EF4;

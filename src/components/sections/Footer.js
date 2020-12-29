@@ -6,17 +6,27 @@ import Img from 'gatsby-image';
 import { Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
-import GithubIcon from '@static/icons/github.svg';
+import FacebookIcon from '@static/icons/facebook.svg';
 import InstagramIcon from '@static/icons/instagram.svg';
+import MailIcon from '@static/icons/mail.svg';
+import TwitterIcon from '@static/icons/twitter.svg';
 
 const SOCIAL = [
   {
-    icon: GithubIcon,
-    link: 'http://github.com/femmehacks/',
+    icon: MailIcon,
+    link: 'mailto:pennfemmehacks@gmail.com',
   },
   {
     icon: InstagramIcon,
     link: 'https://www.instagram.com/femmehacks/',
+  },
+  {
+    icon: FacebookIcon,
+    link: 'http://facebook.com/femmehacks/',
+  },
+  {
+    icon: TwitterIcon,
+    link: 'https://twitter.com/femmehacks/',
   },
 ];
 
@@ -47,9 +57,9 @@ const Footer = () => (
         <FooterWrapper>
           <StyledContainer>
             <Copyright>
-              <h2>FemmeHacks</h2>
+              <h5>© FemmeHacks 2021</h5>
               <span>
-                Made with &#9829; by FemmeHacks
+                Made with &#9829; by FemmeHacks and Penn WiCS
                 {` `}
                 {/* <ExternalLink href="">
                   @linkName
@@ -75,8 +85,8 @@ const SocialIcons = styled.div`
 
   img {
     margin: 0 8px;
-    width: 24px;
-    height: 24px;
+    width: 27px;
+    height: 27px;
   }
 
   @media (max-width: ${props => props.theme.screen.sm}) {
@@ -86,7 +96,7 @@ const SocialIcons = styled.div`
 
 const FooterWrapper = styled.footer`
   background-color: ${props => props.theme.color.primary};
-  padding: 32px 0;
+  padding: 0px 0px 32px 0px;
 `;
 
 const Copyright = styled.div`

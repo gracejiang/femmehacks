@@ -8,6 +8,8 @@ import ExternalLink from '@common/ExternalLink';
 import Emoji from "../common/emoji"
 
 import FacebookLogo from '@images/logos/facebook.png';
+import MackLogo from '@images/logos/mack.png';
+import GCPLogo from '@images/logos/gcp.png';
 // import { ReactComponent as FacebookLogo } from '@images/logos/facebook.svg';
 // import { ReactComponent as InstagramLogo } from '@images/logos/instagram.svg';
 
@@ -40,13 +42,16 @@ const Sponsors = () => (
           <div>
             <h1>Our 2021 Sponsors <Emoji symbol="💕"/></h1>
             <LogoGrid>
-              <img className="sponsor-logo-class" src={FacebookLogo}/>
+              <a href="https://www.facebook.com/careers/"> <img className="sponsor-logo-class" src={FacebookLogo}/> </a>
+              <a href="https://cloud.google.com"> <img width="350" src={GCPLogo}/> </a>
+              <a href="https://mackinstitute.wharton.upenn.edu"><img width="230px" src={MackLogo}/></a>
               {/* {LOGOS.map(({ logo, link }) => (
                 <ExternalLink key={link} href={link}>
                   {logo()}
                 </ExternalLink>
               ))} */}
-            </LogoGrid>
+              </LogoGrid>
+              <p> Interested in sponsoring FemmeHacks 2021? Feel free to reach out to <a href="mailto:sponsor@femmehacks.io">sponsor@femmehacks.io</a>, we'd love to hear from you!</p>
           </div>
           {/* <Art>
             <Img fluid={data.art_story.childImageSharp.fluid} />
@@ -62,8 +67,8 @@ const LogoGrid = styled.div`
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 64px;
   justify-items: center;
-  margin-top: 96px;
-
+  margin-top: 90px;
+  margin-bottom: 50px;
   a {
     svg {
       width: 100%;
