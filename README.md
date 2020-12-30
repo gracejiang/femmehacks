@@ -35,3 +35,5 @@ The component `src/components/common/SEO.js` handles all meta data and SEO conte
 ## Styling
 
 This project uses [styled-components]() to handle styling: `src/styles/theme.js` defines the styling base and `src/styles/GlobalStyles.js` includes basic element styles along with the CSS Reset.
+
+Social media icons: https://package.elm-lang.org/packages/1602/elm-feather/1.0.0/FeatherIcons
