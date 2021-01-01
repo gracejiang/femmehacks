@@ -48,6 +48,7 @@ const Header = () => (
               </h1>
               <br/>
               <h3>February 5-6, 2021</h3>
+              <p><i>Application deadline: January 29, 2021</i></p>
               <br/>
               <p>
                 <div style={{height: "24px"}}></div>
@@ -55,7 +56,6 @@ const Header = () => (
                   Register Here &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>
-              <p> Application deadline: January 29, 2021 </p>
             </Text>
           </Grid>
         </Container>

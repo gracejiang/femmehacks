@@ -138,6 +138,7 @@ const Faq = () => (
     <Container>
       <h1 style={{ marginBottom: '40px' }}>Frequently Asked Questions <Emoji symbol="📚"/></h1>
       <p>If you have any other questions, please don't hesitate to email <a href="mailto=pennfemmehacks@gmail.com"> pennfemmehacks@gmail.com</a>!</p>
+      <br/>
       <Row>
         <Col xs={12} lg={6}>
           <h3>General</h3>
