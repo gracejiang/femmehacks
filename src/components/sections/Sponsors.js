@@ -10,6 +10,8 @@ import Emoji from "../common/emoji"
 import FacebookLogo from '@images/logos/facebook.png';
 import MackLogo from '@images/logos/mack.png';
 import GCPLogo from '@images/logos/gcp.png';
+import OnePLogo from '@images/logos/1p.png';
+import BloombergLogo from '@images/logos/bloomberg.png';
 // import { ReactComponent as FacebookLogo } from '@images/logos/facebook.svg';
 // import { ReactComponent as InstagramLogo } from '@images/logos/instagram.svg';
 
@@ -43,8 +45,10 @@ const Sponsors = () => (
             <h1>Our 2021 Sponsors <Emoji symbol="💕"/></h1>
             <LogoGrid>
               <a href="https://www.facebook.com/careers/"> <img className="sponsor-logo-class" src={FacebookLogo}/> </a>
-              <a href="https://cloud.google.com"> <img width="350" src={GCPLogo}/> </a>
+              <a href="https://cloud.google.com"> <img width="370" src={GCPLogo}/> </a>
+              <a href="https://www.bloomberg.com/company/engineering/"><img width="270px" src={BloombergLogo}/></a>
               <a href="https://mackinstitute.wharton.upenn.edu"><img width="230px" src={MackLogo}/></a>
+              <a href="https://1password.com/jobs/"><img width="230px" src={OnePLogo}/></a>
               {/* {LOGOS.map(({ logo, link }) => (
                 <ExternalLink key={link} href={link}>
                   {logo()}
@@ -64,9 +68,10 @@ const Sponsors = () => (
 
 const LogoGrid = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 64px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 60px 45px;
   justify-items: center;
+  align-items: center;
   margin-top: 90px;
   margin-bottom: 50px;
   a {
