@@ -48,7 +48,7 @@ class Navbar extends Component {
     <NavListWrapper mobile={mobile}>
       <Scrollspy
         items={NAV_ITEMS.map(item => item.toLowerCase())}
-        currentClassName="active"
+        // currentClassName="active"
         mobile={mobile}
         offset={-64}
       >

@@ -49,6 +49,9 @@ module.exports = {
       },
     },
     {
+        resolve: `react-image-gallery`,
+    },
+    {
       resolve: `gatsby-plugin-alias-imports`,
       options: {
         alias: {

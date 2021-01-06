@@ -7,6 +7,41 @@ import Emoji from "../common/emoji"
 import { Section, Container } from '@components/global';
 import { Row, Col } from 'react-bootstrap';
 
+// image gallery
+import "../../styles/image-gallery.css";
+import ImageGallery from 'react-image-gallery';
+
+// images
+import Img1 from '../../images/events/2019-2.jpg'
+import Img2 from '../../images/events/2019-event-1.jpg'
+import Img3 from '../../images/events/2020-event-4.jpg'
+import Img4 from '../../images/events/event-2018.jpg'
+import Img5 from '../../images/events/2020-event.jpg'
+
+const images = [
+    {
+      original: Img5,
+      thumbnail: Img5,
+    },
+    {
+      original: Img4,
+      thumbnail: Img4,
+    },
+    {
+      original: Img3,
+      thumbnail: Img3,
+    },
+    {
+      original: Img1,
+      thumbnail: Img1,
+    },
+    {
+      original: Img2,
+      thumbnail: Img2,
+    },
+];
+
+
 const About = () => (
   <Section id="about">
     <Container>
@@ -45,6 +80,14 @@ const About = () => (
           company-sponsored prizes for hackathon winners. </p>
         </Col>
 
+      </Row>
+      <Row>
+        <div class="image-gallery-center">
+          <ImageGallery 
+            items={images}
+            showNav={false}
+          />
+        </div>
       </Row>
     </Container>
   </Section>

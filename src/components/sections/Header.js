@@ -48,14 +48,20 @@ const Header = () => (
               </h1>
               <br/>
               <h3>February 5-6, 2021</h3>
+              <p><i>Application deadline: January 29, 2021</i></p>
               <br/>
               <p>
                 <div style={{height: "24px"}}></div>
                 <StyledExternalLink className="header-register-btn" href="https://forms.gle/bfuQYtBepZurW7Pj9">
                   Register Here &nbsp;&#x2794;
                 </StyledExternalLink>
+
+                {/* <br/><br/>
+
+                <StyledExternalLink className="header-register-btn" href="https://www.facebook.com/events/1141515579595946">
+                  View Facebook Event &nbsp;&#x2794;
+                </StyledExternalLink> */}
               </p>
-              <p> Application deadline: January 29, 2021 </p>
             </Text>
           </Grid>
         </Container>
