@@ -1,6 +1,8 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
+import FemmeHacksImg from '../../images/art/card.jpg';
+
 const SEO_DATA = {
   description: "Philadelphia's first all women and non-binary hackathon.",
   title: 'FemmeHacks',
@@ -19,7 +21,8 @@ const SEO = () => {
       <meta property="og:title" content={SEO_DATA.title} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={SEO_DATA.url} />
-      <meta property="og:image" content={SEO_DATA.img} />
+      <meta property="og:image" content={FemmeHacksImg} />
+      
       <meta property="og:description" content={SEO_DATA.description} />
 
       <meta name="twitter:card" content="summary_large_image" />
