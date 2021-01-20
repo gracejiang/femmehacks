@@ -4,12 +4,12 @@ import Helmet from 'react-helmet';
 import FemmeHacksImg from '../../images/art/card.jpg';
 
 const SEO_DATA = {
-  description: "Philadelphia's first all women and non-binary hackathon.",
+  description: "Philadelphia's first all women and non-binary hackathon!",
   title: 'FemmeHacks',
   url: '',
   author: 'ajayns',
-  keywords: ['gatsby', 'site', 'absurd'],
-  img: '',
+  keywords: ['femmehacks', 'hackathon', 'womenintech', 'computerscience', 'diversity'],
+  img: '../../images/art/card.jpg',
   twitterId: '@ajayns_',
   facebookId: '',
 };
