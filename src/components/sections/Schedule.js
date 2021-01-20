@@ -10,7 +10,9 @@ const Schedule = () => (
     <Container>
       <h1>2021 Schedule <Emoji symbol="🕒"/></h1>
       <br/>
-      <p>Our finalized schedule will be emailed out to our hackers!</p>
+      <p>You can view our schedule
+          in <b><a href="https://drive.google.com/file/d/1dD_zkTXmSyTQfCGfTFsH6y1_MK7EO442/view?usp=sharing">PDF form</a></b>. We
+        will also be emailing the finalized schedule at all our attendees before the event starts.</p>
       <br/>
       <Row>
         <Col xs={12} md={6}>

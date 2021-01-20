@@ -33,7 +33,9 @@ const Header = () => (
         paddingTop:"16%",
         paddingBottom:"12%",
         backgroundImage: `url(${BackgroundImage})`,
-        backgroundSize: 'cover'
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundAttachment: 'fixed'
     }}>
         <Container>
           <Grid>
