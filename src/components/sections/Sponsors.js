@@ -53,7 +53,7 @@ const Sponsors = () => (
               <a href="https://www.facebook.com/careers/"> <img className="sponsor-logo-class" src={FacebookLogo}/> </a>
               <a href="https://careers.microsoft.com/"> <img className="sponsor-logo-class" src={MsftLogo}/> </a>
               <a href="https://cloud.google.com"> <img width="350" src={GCPLogo}/> </a>
-              <a href="hhttps://www.vanguardjobs.com/"> <img className="sponsor-logo-class" src={VanguardLogo}/> </a>
+              <a href="https://www.vanguardjobs.com/"> <img className="sponsor-logo-class" src={VanguardLogo}/> </a>
               <a href="https://www.urbanoutfitters.com/careers"> <img height="180px" src={UOLogo}/> </a>
               <a href="https://www.bloomberg.com/company/engineering/"><img width="250px" src={BloombergLogo}/></a>
               <a href="https://www.alumni.upenn.edu/s/1587/gid2/16/interior_1col.aspx?sid=1587&gid=2&pgid=420"> <img className="sponsor-logo-class" src={TCPWLogo}/> </a>
