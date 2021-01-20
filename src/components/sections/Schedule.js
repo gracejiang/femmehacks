@@ -10,6 +10,8 @@ const Schedule = () => (
     <Container>
       <h1>2021 Schedule <Emoji symbol="🕒"/></h1>
       <br/>
+      <p>Our finalized schedule will be emailed out to our hackers!</p>
+      <br/>
       <Row>
         <Col xs={12} md={6}>
           <h3>February 5 (Friday)</h3>
@@ -53,7 +55,6 @@ const Schedule = () => (
           </p>
         </Col>
       </Row>
-      
     </Container>
   </Section>
 );
