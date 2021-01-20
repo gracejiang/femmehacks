@@ -44,7 +44,7 @@ const Header = () => (
             </Art>
             <Text>
               <h1 style={{fontSize: "40px"}}>
-                An inclusive all women &amp; nonbinary hackathon. <Emoji symbol="👩‍💻"/>
+                An inclusive all-women &amp; non-binary hackathon. <Emoji symbol="👩‍💻"/>
               </h1>
               <br/>
               <h3>February 5-6, 2021</h3>
