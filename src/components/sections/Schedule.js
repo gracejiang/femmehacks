@@ -19,7 +19,7 @@ const Schedule = () => (
           <h3>February 5 (Friday)</h3>
           <p>
             <br/><b>3:00pm - 6:00pm</b>: <b>Check-in</b>
-            <br/><b>3:00pm - 6:00pm</b>: Introductions &amp; Team Formation on Discord
+            <br/><b>3:00pm - 4:30pm</b>: Introductions &amp; Team Formation on Discord
             <br/><b>4:30pm - 5:00pm</b>: <b>Opening Ceremony</b>
             <br/><b>5:00pm - 6:00pm</b>: Sponsors Meet n' Greet!
             <br/><b>6:00pm - 6:45pm</b>: [Beginner] Intro to Git with Andrea Baric
