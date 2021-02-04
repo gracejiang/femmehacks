@@ -10,7 +10,7 @@ const Schedule = () => (
     <Container>
       <h1>2021 Schedule <Emoji symbol="🕒" /></h1>
       <br />
-      <p> All the <b>meeting links</b> are available on our Airtable -- please check the <b>Event Location</b> section in the acceptance email to find the Airtable link!</p>
+      <p> All the <b>meeting links</b> are available on our Airtable -- please check the <b>Event Location</b> section in the acceptance email to find the Airtable link! All times are in Eastern Standard Time (EST).</p>
       <br />
       <Row>
         <Col xs={12} md={6}>
@@ -23,10 +23,8 @@ const Schedule = () => (
             <br /><b>6:00pm - 6:45pm</b>: [Beginner] Intro to Git with Andrea Baric
             <br /><b>6:00pm - 6:45pm</b>: [Intermediate] Intro to UI/UX with Sanjana
             <br /><b>7:00pm - 7:45pm</b>: [Beginner] Intro to Web Dev with Hack4Impact
-            <br /><b>7:00pm - 8:00pm</b>: Cloud Hero Workshop Pt. 1 with Google Cloud
             <br /><b>8:00pm - 8:45pm</b>: [Beginner] Intro to iOS with Steph Tang
             <br /><b>8:00pm - 8:45pm</b>: [Intermediate] Intermediate Web Dev with Hack4Impact
-            <br /><b>8:00pm - 9:00pm</b>: Cloud Hero Workshop Pt. 2 with Google Cloud
             <br /><b>9:00pm - 9:30pm</b>: Speed Dating &amp; Team Formation
             <br /><b>9:30pm - 10:30pm</b>: Discord Game Night (Among Us, Code Names, &amp; more!)
           </p>
@@ -37,10 +35,10 @@ const Schedule = () => (
           <p>
             <br /><b>8:00am</b>: <b>Hacking Starts</b>
             <br /><b>8:00am - 9:30am</b>: Office Hours – Ideation
-            <br /><b>9:30am - 10:30am</b>: Add SMS and Voice to your Apps with Twilio
             <br /><b>10:30am - 11:30am</b>: Facebook Panel and Q &amp; A
+            <br /><b>11:00am - 12:00pm</b>: Add SMS and Voice to your Apps with Twilio
             <br /><b>11:00am - 12:00pm</b>: Start-up Workshop with Krish
-            <br /><b>11:30am - 12:00pm</b>: Soulsmiles Workshop
+            <br /><b>11:30am - 12:00pm</b>: Soulsmile Club: Tech for Social Good
             <br /><b>12:00pm - 1:00pm</b>: Women in Tech Panel!
             <br /><b>1:00pm - 2:00pm</b>: How to Ace Tech Interviews with Vanguard
             <br /><b>2:00pm - 4:00pm</b>: Skribbl on Discord
@@ -53,7 +51,7 @@ const Schedule = () => (
             <br /><b>8:30pm</b>: <b>Devpost Submission Deadline</b>
             <br /><b>8:45pm - 9:30pm</b>: Judging Time
             <br /><b>9:00pm - 9:30pm</b>: Trivia Night!
-            <br /><b>9:40pm</b>: <b>Closing Ceremony</b>
+            <br /><b>9:40pm - 10:00pm</b>: <b>Closing Ceremony</b>
           </p>
         </Col>
       </Row>
