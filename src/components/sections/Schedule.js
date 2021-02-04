@@ -10,7 +10,7 @@ const Schedule = () => (
     <Container>
       <h1>2021 Schedule <Emoji symbol="🕒" /></h1>
       <br />
-      <p> All the <b>meeting links</b> are available on our Airtable -- please check the <b>Event Location</b> section in the acceptance email to find the Airtable link! All times are in Eastern Standard Time (EST).</p>
+      <p> All the <b>meeting links</b> are available on our Airtable -- please check the <b>Event Location</b> section in the acceptance email to find the <b>Airtable link</b>! All times are in Eastern Standard Time (EST).</p>
       <br />
       <Row>
         <Col xs={12} md={6}>
