@@ -35,7 +35,7 @@ const Schedule = () => (
           <p>
             <br /><b>8:00am</b>: <b>Hacking Starts</b>
             <br /><b>8:00am - 9:30am</b>: Office Hours – Ideation
-            <br /><b>10:30am - 11:30am</b>: Facebook Panel and Q &amp; A
+            <br /><b>10:00am - 11:00am</b>: Facebook Panel and Q &amp; A
             <br /><b>11:00am - 12:00pm</b>: Add SMS and Voice to your Apps with Twilio
             <br /><b>11:00am - 12:00pm</b>: Start-up Workshop with Krish
             <br /><b>11:30am - 12:00pm</b>: Soulsmile Club: Tech for Social Good
