@@ -23,6 +23,7 @@ const Schedule = () => (
             <br /><b>6:00pm - 6:45pm</b>: [Beginner] Intro to Git with Andrea Baric
             <br /><b>6:00pm - 6:45pm</b>: [Intermediate] Intro to UI/UX with Sanjana
             <br /><b>7:00pm - 7:45pm</b>: [Beginner] Intro to Web Dev with Hack4Impact
+            <br /><b>7:00pm - 8:00pm</b>: Google Cloud Workshop [pre-recorded]
             <br /><b>8:00pm - 8:45pm</b>: [Beginner] Intro to iOS with Steph Tang
             <br /><b>8:00pm - 8:45pm</b>: [Intermediate] Intermediate Web Dev with Hack4Impact
             <br /><b>9:00pm - 9:30pm</b>: Speed Dating &amp; Team Formation
@@ -46,6 +47,7 @@ const Schedule = () => (
             <br /><b>2:00pm - 2:30pm</b>: The Percentage Project: Data-Driven Advocacy
             <br /><b>3:00pm - 4:00pm</b>: Product Management 101 with Microsoft PM Andrea Baric
             <br /><b>4:00pm - 4:30pm</b>: Venture Capital Workshop with Wiress
+            <br /><b>6:00pm</b>: <b>Draft Submission to Devpost</b>
             <br /><b>6:00pm - 8:00pm</b>: Office Hours
             <br /><b>8:00pm</b>: <b>Hacking Stops</b>
             <br /><b>8:30pm</b>: <b>Devpost Submission Deadline</b>
