@@ -68,7 +68,7 @@ const Sponsors = () => (
                 </ExternalLink>
               ))} */}
             </LogoGrid>
-            <p> Interested in sponsoring FemmeHacks 2021? Feel free to reach out to <a href="mailto:sponsor@femmehacks.io">sponsor@femmehacks.io</a>, we'd love to hear from you!</p>
+            <p> Interested in sponsoring FemmeHacks 2022? Feel free to reach out to <a href="mailto:sponsor@femmehacks.io">sponsor@femmehacks.io</a>, we'd love to hear from you!</p>
           </div>
           {/* <Art>
             <Img fluid={data.art_story.childImageSharp.fluid} />

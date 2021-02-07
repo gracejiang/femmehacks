@@ -29,33 +29,33 @@ const Header = () => (
     render={data => (
       <HeaderWrapper id="home" style={{
         paddingLeft: "10%",
-        paddingRight:"10%",
-        paddingTop:"16%",
-        paddingBottom:"12%",
+        paddingRight: "10%",
+        paddingTop: "16%",
+        paddingBottom: "12%",
         backgroundImage: `url(${BackgroundImage})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundAttachment: 'fixed'
-    }}>
+      }}>
         <Container>
           <Grid>
             <Art>
               <Img fluid={data.art_build.childImageSharp.fluid}
-              style={{width: "95%"}}
+                style={{ width: "95%" }}
               />
             </Art>
             <Text>
-              <h1 style={{fontSize: "40px"}}>
-                An inclusive all-women &amp; non-binary hackathon. <Emoji symbol="👩‍💻"/>
+              <h1 style={{ fontSize: "40px" }}>
+                An inclusive all-women &amp; non-binary hackathon. <Emoji symbol="👩‍💻" />
               </h1>
-              <br/>
+              <br />
               <h3>February 5-6, 2021</h3>
-              <p><i>Application deadline: January 29, 2021</i></p>
-              <br/>
+              <br />
+              <p>Thank you for attending FemmeHacks 2021! <br /> We'd love to see you at FemmeHacks 2022 <Emoji symbol="😊" /> </p>
               <p>
-                <div style={{height: "24px"}}></div>
-                <StyledExternalLink className="header-register-btn" href="https://forms.gle/bfuQYtBepZurW7Pj9">
-                  Register Here &nbsp;&#x2794;
+                <div style={{ height: "24px" }}></div>
+                <StyledExternalLink className="header-register-btn" href="https://femmehacks-2021.devpost.com/project-gallery">
+                  View Projects &nbsp;&#x2794;
                 </StyledExternalLink>
 
                 {/* <br/><br/>

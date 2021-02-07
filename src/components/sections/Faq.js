@@ -32,8 +32,8 @@ const GeneralFAQS = [
     title: 'How will FemmeHacks work virtually?',
     content: () => (
       <p>
-        Details are still being finalized, but we will most likely use Discord
-        for communication purposes and Zoom for workshops.
+        We will be using Discord
+        for communication purposes and Zoom for workshops! All meeting links will be compiled into an Airtable that only registered participants have access to.
       </p>
     ),
   },
@@ -51,8 +51,8 @@ const GeneralFAQS = [
     title: 'Will there be swag or prizes?',
     content: () => (
       <p>
-        Yes! More details to come, but we are planning on shipping all our domestic
-        attendees free t-shirts and face masks :)
+        Yes! We'll be shipping all domestic
+        attendees FemmeHacks stickers, and hackers who submit project to Devpost will receive free t-shirts and face masks :)
       </p>
     ),
   },
@@ -136,9 +136,9 @@ const RegistrationFAQS = [
 const Faq = () => (
   <Section id="faq">
     <Container>
-      <h1 style={{ marginBottom: '40px' }}>Frequently Asked Questions <Emoji symbol="📚"/></h1>
+      <h1 style={{ marginBottom: '40px' }}>Frequently Asked Questions <Emoji symbol="📚" /></h1>
       <p>If you have any other questions, please don't hesitate to email <a href="mailto=pennfemmehacks@gmail.com"> pennfemmehacks@gmail.com</a>!</p>
-      <br/>
+      <br />
       <Row>
         <Col xs={12} lg={6}>
           <h3>General</h3>

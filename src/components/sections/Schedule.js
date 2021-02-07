@@ -48,11 +48,11 @@ const Schedule = () => (
             <br /><b>3:00pm - 4:00pm</b>: Product Management 101 with Microsoft PM Andrea Baric
             <br /><b>4:30pm - 5:00pm</b>: Venture Capital Workshop with Wiress
             <br /><b>6:00pm</b>: <b>Draft Submission to Devpost</b>
-            <br /><b>8:30pm</b>: <b>Devpost Submission Deadline</b>
-            <br /><b>8:45pm - 9:30pm</b>: Judging Time
-            <br /><b>8:30pm - 9:10pm</b>: Trivia Night!
-            <br /><b>9:10pm - 9:40pm</b>: Trivia Night!
-            <br /><b>9:40pm - 10:00pm</b>: <b>Closing Ceremony</b>
+            <br /><b>8:40pm</b>: <b>Final Submission Deadline</b>
+            <br /><b>8:50pm - 10:00pm</b>: Judging Time
+            <br /><b>8:50pm - 9:30pm</b>: Demo Fair
+            <br /><b>9:30pm - 10:00pm</b>: Trivia Night!
+            <br /><b>10:30pm - 10:45pm</b>: <b>Closing Ceremony</b>
           </p>
         </Col>
       </Row>
