@@ -46,7 +46,7 @@ const Schedule = () => (
             <br /><b>2:00pm - 3:00pm</b>: Workout session with Urban Outfitters
             <br /><b>2:00pm - 2:30pm</b>: The Percentage Project: Data-Driven Advocacy
             <br /><b>3:00pm - 4:00pm</b>: Product Management 101 with Microsoft PM Andrea Baric
-            <br /><b>4:00pm - 4:30pm</b>: Venture Capital Workshop with Wiress
+            <br /><b>4:30pm - 5:00pm</b>: Venture Capital Workshop with Wiress
             <br /><b>6:00pm</b>: <b>Draft Submission to Devpost</b>
             <br /><b>8:30pm</b>: <b>Devpost Submission Deadline</b>
             <br /><b>8:45pm - 9:30pm</b>: Judging Time
