@@ -89,6 +89,13 @@ const About = () => (
           />
         </div>
       </Row>
+      <Row>
+        <div class="image-gallery-center">
+          <script src="https://unpkg.com/@ungap/custom-elements-builtin"></script>
+          <script type="module" src="https://unpkg.com/x-frame-bypass"></script>
+          <iframe width = '800vw' height = '600hw' is="x-frame-bypass" src="https://www.pennovation.upenn.edu/news/how-femmehacks-inspired-200-women-keep-pursuing-tech-careers"></iframe>
+        </div>
+      </Row>
     </Container>
   </Section>
 );
