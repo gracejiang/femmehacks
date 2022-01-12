@@ -49,17 +49,16 @@ const Header = () => (
                 An inclusive all-women &amp; non-binary hackathon. <Emoji symbol="👩‍💻" />
               </h1>
               <br />
-              <h3>February 5-6, 2021</h3>
+              <h3>February 11-12, 2022</h3>
               <br />
-              <p>Thank you for attending FemmeHacks 2021! <br /> We'd love to see you at FemmeHacks 2022 <Emoji symbol="😊" /> </p>
+              <p>Applications for FemmeHacks 2022 open now!</p>
               <p>
                 <div style={{ height: "24px" }}></div>
-                <StyledExternalLink className="header-register-btn" href="https://femmehacks-2021.devpost.com/project-gallery">
-                  View Projects &nbsp;&#x2794;
+                <StyledExternalLink className="header-register-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeaSkU2ZfppdP9a4srNLh1A-rmnsU9hEQlK8YgCjGM7ykAWpg/viewform">
+                  Register now &nbsp;&#x2794;
                 </StyledExternalLink>
 
                 {/* <br/><br/>
-
                 <StyledExternalLink className="header-register-btn" href="https://www.facebook.com/events/1141515579595946">
                   View Facebook Event &nbsp;&#x2794;
                 </StyledExternalLink> */}
@@ -75,7 +74,6 @@ const Header = () => (
 const HeaderWrapper = styled.header`
   background-color: ${props => props.theme.color.primary};
   padding-top: 96px;
-
   @media (max-width: ${props => props.theme.screen.md}) {
     padding-top: 128px;
   }
@@ -84,11 +82,9 @@ const HeaderWrapper = styled.header`
 const Art = styled.figure`
   width: 100%;
   margin: 0;
-
   > div {
     width: 120%;
     margin-bottom: -4.5%;
-
     @media (max-width: ${props => props.theme.screen.md}) {
       width: 100%;
     }
@@ -100,11 +96,9 @@ const Grid = styled.div`
   grid-template-columns: 1fr 1fr;
   align-items: center;
   grid-gap: 64px;
-
   @media (max-width: ${props => props.theme.screen.md}) {
     grid-template-columns: 1fr;
     grid-gap: 80px;
-
     > ${Art} {
       order: 2;
     }
@@ -113,7 +107,6 @@ const Grid = styled.div`
 
 const Text = styled.div`
   justify-self: center;
-
   @media (max-width: ${props => props.theme.screen.md}) {
     justify-self: start;
   }
@@ -128,7 +121,6 @@ const StyledExternalLink = styled(ExternalLink)`
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 10px;
-
   &:hover {
     background-color: #6982fa;
   }
