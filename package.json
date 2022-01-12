@@ -7,7 +7,7 @@
   "dependencies": {
     "@svgr/webpack": "^4.1.0",
     "bootstrap": "^4.5.3",
-    "gatsby": "^2.29.2",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-google-fonts": "^0.0.4",
@@ -29,7 +29,8 @@
     "react-image-gallery": "^1.0.8",
     "react-scrollspy": "^3.3.5",
     "styled-components": "^4.1.3",
-    "typeface-chivo": "^1.1.13"
+    "typeface-chivo": "^1.1.13",
+    "url-loader": "^4.1.1"
   },
   "keywords": [
     "gatsby"

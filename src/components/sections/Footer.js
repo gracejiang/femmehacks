@@ -57,7 +57,7 @@ const Footer = () => (
         <FooterWrapper>
           <StyledContainer>
             <Copyright>
-              <h5>© FemmeHacks 2021</h5>
+              <h5>© FemmeHacks 2022</h5>
               <span>
                 Made with &#9829; by FemmeHacks and Penn WiCS
                 {` `}
@@ -82,13 +82,11 @@ const Footer = () => (
 
 const SocialIcons = styled.div`
   display: flex;
-
   img {
     margin: 0 8px;
     width: 27px;
     height: 27px;
   }
-
   @media (max-width: ${props => props.theme.screen.sm}) {
     margin-top: 40px;
   }
@@ -103,7 +101,6 @@ const Copyright = styled.div`
   font-family: ${props => props.theme.font.secondary};
   ${props => props.theme.font_size.small};
   color: ${props => props.theme.color.black.regular};
-
   a {
     text-decoration: none;
     color: inherit;
@@ -121,7 +118,6 @@ const StyledContainer = styled(Container)`
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   @media (max-width: ${props => props.theme.screen.sm}) {
     flex-direction: column;
     text-align: center;
